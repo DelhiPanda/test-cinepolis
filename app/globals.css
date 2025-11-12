@@ -3,62 +3,24 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --cinepolis-blue: #295999;
-  --cinepolis-yellow: #E8B439;
-  --cinepolis-blue-dark: #1e3f6b;
-  --cinepolis-yellow-dark: #d4a032;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-cinepolis-blue: #295999;
-  --color-cinepolis-yellow: #E8B439;
-  --color-cinepolis-blue-dark: #1e3f6b;
-  --color-cinepolis-yellow-dark: #d4a032;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
-  :root:not(.light) {
+  :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
-
-.dark {
-  --background: #0a0a0a;
-  --foreground: #ededed;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Estilos personalizados para Cinepolis */
-.bg-cinepolis-blue {
-  background-color: var(--cinepolis-blue);
-}
-
-.bg-cinepolis-yellow {
-  background-color: var(--cinepolis-yellow);
-}
-
-.text-cinepolis-blue {
-  color: var(--cinepolis-blue);
-}
-
-.text-cinepolis-yellow {
-  color: var(--cinepolis-yellow);
-}
-
-.border-cinepolis-blue {
-  border-color: var(--cinepolis-blue);
-}
-
-.hover\:bg-cinepolis-blue-dark:hover {
-  background-color: var(--cinepolis-blue-dark);
 }
