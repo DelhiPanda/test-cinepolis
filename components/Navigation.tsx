@@ -39,7 +39,7 @@ export function Navigation() {
             >
               Planificador
             </Link>
-            <button
+            {/* <button
               onClick={toggleTheme}
               className="p-2 rounded-lg transition-colors hover:bg-cinepolis-blue-dark focus:outline-none focus:ring-2 focus:ring-cinepolis-yellow"
               aria-label={mounted && theme === "dark" ? "Cambiar a modo claro" : "Cambiar a modo oscuro"}
@@ -76,7 +76,7 @@ export function Navigation() {
                   />
                 </svg>
               )}
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
